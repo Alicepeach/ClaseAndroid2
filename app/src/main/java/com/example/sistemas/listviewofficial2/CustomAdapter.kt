@@ -14,7 +14,7 @@ class CustomAdapter(var context: Context, var artist: ArrayList<Artist>): BaseAd
         var txtName: TextView
         var ivImagen: ImageView
         init {
-            this.txtName = row?.findViewById(R.id.txtName) as TextView
+            this.txtName = row?.findViewById(R.id.txtArtista) as TextView
             this.ivImagen = row?.findViewById(R.id.ivArtista) as ImageView
         }
     }

@@ -16,7 +16,8 @@
             android:layout_alignParentStart="true"
             android:layout_marginLeft="35dp"
             android:layout_marginTop="35dp"
-            android:layout_marginStart="35dp"/>
+            android:layout_marginStart="35dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="396dp"/>
 
     <TextView android:layout_alignParentTop="true"
               android:layout_marginStart="46dp"
@@ -25,10 +26,12 @@
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:textSize="20px"
-              android:textColor="183cb3"
-              android:alingBottom="@+id/txtName"
+              android:textColor="#183cb3"
               android:layout_toEndOf="@+id/ivArtista"
               android:layout_toRightOf="@+id/ivArtista"
               android:id="@+id/txtArtista"
-              android:text="Nombre del artista:"/>
+              android:text="Nombre del artista:" android:layout_alignParentBottom="true"
+              android:layout_marginBottom="422dp" android:layout_alignParentEnd="true"
+              android:layout_alignParentRight="true" android:layout_marginRight="165dp"
+              android:layout_marginEnd="165dp"/>
 </RelativeLayout>
