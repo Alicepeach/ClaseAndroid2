@@ -11,7 +11,18 @@ class ArtistActivity : AppCompatActivity() {
 
         var listView = findViewById(R.id.listView) as ListView
         var arrArtistas: ArrayList<Artist> = ArrayList()
+        arrArtistas.add(Artist("Rihanna", R.drawable.rihanna))
+        arrArtistas.add(Artist("Natti", R.drawable.natti))
+        arrArtistas.add(Artist("Rihanna", R.drawable.rihanna))
         arrArtistas.add(Artist("Michael", R.drawable.michael))
+        arrArtistas.add(Artist("Michael", R.drawable.michael))
+        arrArtistas.add(Artist("Natti", R.drawable.michael))
+        arrArtistas.add(Artist("Rihanna", R.drawable.rihanna))
+        arrArtistas.add(Artist("Natti", R.drawable.natti))
+        arrArtistas.add(Artist("Rihanna", R.drawable.rihanna))
+        arrArtistas.add(Artist("Michael", R.drawable.michael))
+        arrArtistas.add(Artist("Michael", R.drawable.michael))
+        arrArtistas.add(Artist("Natti", R.drawable.michael))
         listView.adapter = CustomAdapter(applicationContext, arrArtistas)
     }
 }
